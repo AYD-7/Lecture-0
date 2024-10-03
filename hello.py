@@ -14,7 +14,7 @@ location = "London"
 transport = "boat"
 print(f"{name} is going to {location} by {transport}.")
 
-# Conditional statements(if, elif and else statements)
+# Conditional statements(if, elif and else statements).
 x = 29
 if x > 0:
     print("x is a positive number")
