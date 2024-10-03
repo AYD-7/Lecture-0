@@ -2,4 +2,37 @@ p {
   color: red;
 }
 
+h1 {
+  background-color: greenyellow;
+  text-align: center;
+}
+
+form {
+  border: 5px dashed green;
+}
+form input {
+  width: 100%;
+  text-align: center;
+}
+
+.content .red, .content .yellow, .content .green {
+  font-weight: bold;
+  text-align: center;
+  font-size: 25px;
+  font-family: monospace;
+}
+
+.content {
+  border: 5px dashed black;
+}
+.content .green {
+  background-color: green;
+}
+.content .yellow {
+  background-color: yellow;
+}
+.content .red {
+  background-color: red;
+}
+
 /*# sourceMappingURL=style.css.map */

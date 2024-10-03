@@ -1,4 +1,46 @@
 $sango: red;
+$first-color: yellow;
+$second-color: green;
+$third-color: greenyellow;
+$my-align: center;
+$my-border: 5px dashed green; 
 p {
     color: $sango;
+    
+
+}
+h1 {
+    background-color: $third-color;
+    text-align: $my-align;
+}
+
+form {
+    border: $my-border;
+    input {
+        width: 100%;
+        text-align: $my-align;
+    }
+}
+
+%message {
+    font-weight: bold;
+    text-align: $my-align;
+    font-size: 25px;
+    font-family: monospace;
+}
+
+.content {
+    border: 5px dashed black;
+    .green{
+        @extend %message;
+        background-color: $second-color;
+    }
+    .yellow{
+        @extend %message;
+        background-color: $first-color;
+    }
+    .red {
+        @extend %message;
+        background-color: $sango;
+    }
 }

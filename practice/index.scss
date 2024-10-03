@@ -1,0 +1,14 @@
+$primary: yellow;
+$secondary: green;
+$tertiary: greenyellow;
+p {
+    color: $primary;
+    background-color: $secondary;
+    border: 2px solid $tertiary;
+}
+
+.goat {
+    color: $tertiary;
+    background-color: $primary;
+    border: 5px dashed $secondary;
+}

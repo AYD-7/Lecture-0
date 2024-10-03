@@ -1,0 +1,13 @@
+p {
+  color: yellow;
+  background-color: green;
+  border: 2px solid greenyellow;
+}
+
+.goat {
+  color: greenyellow;
+  background-color: yellow;
+  border: 5px dashed green;
+}
+
+/*# sourceMappingURL=index.css.map */
